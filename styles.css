@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 150vh;
+    background: plum;
+}
+
+/*************************************************************************************************************
+Additional styles
+*************************************************************************************************************/
+
+input{
+    width: 200px;
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+}
+
+/* set max-height to a flexible unit for mobiles */
+img {
+    max-height: 300px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+table {
+    margin: 20px auto;
+    padding: 3px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 4px;
+    background-color: white;
+}
+
+.non-veg-item {
+    background-color: red;
+}
+
+.unsure-item {
+    background-color: rgb(151, 151, 15);
+}
