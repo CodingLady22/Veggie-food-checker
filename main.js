@@ -1,9 +1,10 @@
 function getFetch(){
   let inputVal = document.getElementById('barcode').value
 
-  if(inputVal.length !== 12) {
+  // if(inputVal.length !== 12 || inputVal.length < 12) {
+  if(inputVal.length < 12) {
     // Or with padStart(0) to complete 12
-    alert(`Please ensure that barcode is 12 characters`)
+    alert(`Please ensure the barcode is more than 11 characters`)
     return;
   }
   const url = `https://world.openfoodfacts.org/api/v0/product/${inputVal}.json`
