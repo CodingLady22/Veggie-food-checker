@@ -10,7 +10,7 @@ Link to <a href="https://monumental-kheer-1078fc.netlify.app">live site</a>
 
 ## Optimization
 * Users will be able to check for vegan food items
-* barcodes with less than 12 characters will be read
+* Barcodes with less than 12 characters will be read
 
 ## Acknowledgments
 **world.openfoodfacts.org** - for providing access to food data through their API
